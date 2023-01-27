@@ -1,0 +1,443 @@
+/*case avec bordure rouge */
+
+
+@font-face {
+	font-family: "valorant";
+	src: url('./font/valorant/Valorant\ Font.ttf');
+}
+
+body
+{
+    background: rgb(14,138,140);
+}
+
+
+
+
+h1  /*texte*/
+{
+    font-family: 'valorant', 'arial';
+    color: white;
+    text-align: center;
+}
+
+
+
+.hrtop .progress 
+{
+  position: fixed;
+  top: 0;
+  height: 3px;
+  transition: width .25s ease;
+  margin: 100px;
+}
+
+div 
+{
+  display: block;
+}
+
+
+.styletextevalorant
+ {
+    font-family: 'valorant','arial';
+    text-align: center;
+    color: white;
+  }
+
+  li /*liste*/
+  {
+    font-family: 'valorant', 'arial';
+    text-decoration: underline white;
+    text-align: center;
+}
+
+
+h4  /*texte*/
+{
+  
+    color: white;
+}
+
+h2  /*texte*/
+{
+    color: palegoldenrod;
+    text-align: center;
+}
+
+.lien  
+{
+    color: violet;
+    text-align: center;
+}
+
+
+p
+{
+    font-family: 'vamorant', 'arial';
+    color: palegoldenrod;
+    text-align: center;
+}
+
+a
+{
+    color: white;
+    text-decoration: underline;    
+}
+
+.textecases
+{
+  text-align: center;
+  color: white;
+
+ 
+  width: max-content;
+  margin: auto;
+  border-spacing: 1cm;
+}
+
+tr
+{
+  background-color: gray;
+}
+
+
+.imagecases
+{
+  width: 6cm;
+  height: 4cm;
+  transition: transform .1s;
+}
+
+
+
+.imagecases:hover
+{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+
+
+
+.position
+{
+  position: inherit;
+}
+
+
+table
+{
+  margin: 50px;
+}
+
+
+.textebouton
+{
+  padding: 50px;
+  text-align: unset;
+}
+
+
+
+
+.casecentrer
+{
+  padding: 1px;
+}
+
+
+
+/*page auto formation*/
+
+
+
+
+.courttexteformation
+{
+  position: relative;
+}
+
+
+.courttexteformation::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.courttexteformation:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.courttexteformation::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: rgb(0, 0, 0);
+  z-index: -1;
+  transition: transform .3s ease;
+  width: 150%;
+}
+
+
+
+
+
+
+.texte_auto-formation
+{
+  text-align: center;
+}
+
+.autoformation
+{
+  size: 3cm;
+  margin: 1cm;
+}
+
+
+.texteformation::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.texteformation:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.texteformation::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: rgb(0, 47, 255);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+.texteformation {
+  position: relative;
+}
+
+
+
+
+
+/*page configuration d'un ordinateur*/
+
+
+.courttexteconfiguration
+{
+  position: relative;
+}
+
+.courttexteconfiguration::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.courttexteconfiguration:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.courttexteconfiguration::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: rgb(0, 0, 0);
+  z-index: -1;
+  transition: transform .3s ease;
+  width: 170%;
+}
+
+.texte_configuration
+{
+  text-align: center;
+}
+
+.configuration
+{
+  size: 3cm;
+  margin: 1cm;
+}
+
+.texteconfiguration::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.texteconfiguration:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.texteconfiguration::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: rgb(0, 47, 255);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+.texteconfiguration {
+  position: relative;
+}
+
+
+
+
+
+
+            /*bouton page index*/
+
+
+
+
+            .bouton
+            {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-align: justify;
+              margin: 50px;
+            }
+            
+            
+          
+
+
+            .glow-on-hover {
+                width: 220px;
+                height: 50px;
+                border: none;
+                outline: none;
+                color: #fff;
+                background: #111;
+                cursor: pointer;
+                position: relative;
+                z-index: 0;
+                border-radius: 10px;
+                text-align: center;
+            }
+            
+            .glow-on-hover:before {
+                content: '';
+                background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+                position: absolute;
+                top: -2px;
+                left:-2px;
+                background-size: 400%;
+                z-index: -1;
+                filter: blur(5px);
+                width: calc(100% + 4px);
+                height: calc(100% + 4px);
+                animation: glowing 20s linear infinite;
+                opacity: 0;
+                transition: opacity .3s ease-in-out;
+                border-radius: 10px;
+                text-align: center;
+            }
+            
+            .glow-on-hover:active {
+                color: #000
+            }
+            
+            .glow-on-hover:active:after {
+                background: transparent;
+                text-align: center;
+            }
+            
+            .glow-on-hover:hover:before {
+                opacity: 1;
+                text-align: center;
+            }
+            
+            .glow-on-hover:after {
+                z-index: -1;
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: #111;
+                left: 0;
+                top: 0;
+                border-radius: 10px;
+                text-align: center;
+            }
+            
+            @keyframes glowing {
+                0% { background-position: 0 0; }
+                50% { background-position: 400% 0; }
+                100% { background-position: 0 0; }
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            /*background index*/
+            
+            html {
+              height:100%;
+            }
+            
+            body {
+              margin:0;
+            }
+            
+            .bg {
+              animation:slide 3s ease-in-out infinite alternate;
+              background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+              bottom:0;
+              left:-50%;
+              opacity:.5;
+              position:fixed;
+              right:-50%;
+              top:0;
+              z-index:-1;
+            }
+            
+            .bg2 {
+              animation-direction:alternate-reverse;
+              animation-duration:4s;
+            }
+            
+            .bg3 {
+              animation-duration:5s;
+            }
+            
+            
+            
+            
+            h1 {
+              font-family:monospace;
+              margin: 50px;
+            }
+            
+            @keyframes slide {
+              0% {
+                transform:translateX(-25%);
+              }
+              100% {
+                transform:translateX(25%);
+              }
+            }
+
+
+
